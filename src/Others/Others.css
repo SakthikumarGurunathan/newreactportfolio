@@ -22,7 +22,7 @@
 @media (max-width:480px){
     .Others{
         display: flex;
-        margin: 0 3px;
+        margin: 0 5px;
         padding : 0 5px;
     }
     .Others ul{
