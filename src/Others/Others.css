@@ -23,7 +23,7 @@
     .Others{
         display: flex;
         margin: 0 5px;
-        padding : 0 5px;
+        padding : 0 10px;
     }
     .Others ul{
         font-size: 16px;
