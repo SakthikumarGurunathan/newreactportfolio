@@ -1,0 +1,52 @@
+.Projects{
+    margin: 25px;
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.samples{
+    display: flex;
+    margin-top: 20px;
+    gap: 25px;
+    align-items: center;
+}
+.project-title{
+    display: inline;
+    background-color:gray;
+    color:white;
+    padding: 10px;
+    border-radius:2px ;
+}
+.samples img{
+    width: 700px;
+}
+.Sections{
+    padding-bottom: 120px;
+}
+@media(max-width:480px){
+    .Projects{
+        gap: 40px;
+    }
+    .samples{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .samples h4{
+        margin-bottom: 0px;
+        margin-top: 10px;
+    }
+    .samples img{
+        width: 95%;
+    }
+    .project-title{
+        margin-top: 5px;
+        display: block;
+    }
+
+}

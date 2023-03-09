@@ -1,0 +1,19 @@
+.Skills-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Skills{
+    display:flex;
+    gap: 50px;
+    margin: 50px;
+}
+@media(max-width:480px){
+    .Skills{
+        display: flex;
+        flex-direction: column;
+        column-gap:10px
+    }
+}

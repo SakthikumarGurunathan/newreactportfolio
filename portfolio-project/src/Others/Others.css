@@ -1,0 +1,24 @@
+
+.Others{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Others ul{
+    list-style: none;
+    font-size: 20px;
+    font-weight: 900;
+    font-style: italic;
+    line-height: 50px;
+    max-width: 900px;
+}
+
+@media (max-width:480px){
+    .Others ul{
+        font-size: 16px;
+        width: 400px;
+        line-height: 30px;
+    }
+}
