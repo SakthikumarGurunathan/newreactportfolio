@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 
 .Others{
     display: flex;
@@ -16,9 +20,14 @@
 }
 
 @media (max-width:480px){
+    .Others{
+        display: flex;
+        margin: 0 0;
+    }
     .Others ul{
         font-size: 16px;
-        width: 400px;
+        max-width: 350px;
         line-height: 30px;
+        padding-left: 0;
     }
 }
