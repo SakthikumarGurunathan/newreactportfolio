@@ -13,7 +13,7 @@ function Navbar(props){
         <li><a href="#skills" className="list-link">{props.jp ? "スキル": "Skills"}</a></li>
         <li><a href="#projects" className="list-link">{props.jp ? "プロジェクト" : "Projects" }</a></li>
         <li><a href="#others" className="list-link">{props.jp ? "他のもの" : "Others"}</a></li>
-        <li><a href="./Sakthikumar-Gurunathan-Updated-Resume.pdf" download={"Sakthikumar-Gurunathan-Updated-Resume.pdf"} className="list-link">{props.jp ? "履歴書" : "Resume"}</a></li>
+        <li><a href="./Sakthikumar-Resume.pdf" download={"Sakthikumar-Resume.pdf"} className="list-link">{props.jp ? "履歴書" : "Resume"}</a></li>
         <li><button onClick ={props.changeToJp} className="toggleLanguage">{props.jp ? "English": "日本語"}</button></li>
       </ul>
     </nav>
